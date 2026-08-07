@@ -4,19 +4,20 @@
             <div>
                 <span class="text-xs font-semibold uppercase tracking-widest text-accent-400">About Me</span>
                 <h2 class="mt-4 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                    I turn complex problems into clean, dependable code.
+                    Abel M. Ingaw — freelance developer since 2012.
                 </h2>
                 <p class="mt-6 leading-relaxed text-zinc-400">
-                    I'm Ami, a full-stack freelance developer with six years of experience
-                    helping teams bring products to life. I specialise in the Laravel
+                    I'm Abel, a freelance developer with over a decade of experience
+                    building web applications end to end. I specialise in the Laravel
                     ecosystem and modern JavaScript — pairing robust, testable backends
                     with interfaces people actually enjoy using.
                 </p>
                 <p class="mt-4 leading-relaxed text-zinc-400">
-                    From scoping a first MVP to optimising systems handling millions of
-                    requests, I own delivery end to end: architecture, implementation,
-                    testing and deployment. Clear communication and clean code are the
-                    two things I never compromise on.
+                    I hold a Bachelor of Science in Computer Science (BSCS) and completed
+                    post-graduate studies with a Master in Information Technology.
+                    Since 2012 I've taken on thesis systems, personal projects and
+                    business websites — owning delivery end to end: architecture,
+                    implementation, testing and deployment.
                 </p>
 
                 <div class="mt-10 grid grid-cols-2 gap-4">

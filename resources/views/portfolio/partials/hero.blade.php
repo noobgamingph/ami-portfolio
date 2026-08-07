@@ -41,7 +41,7 @@
             <dl class="mt-16 grid grid-cols-3 gap-6 border-t border-white/5 pt-10">
                 <div>
                     <dt class="sr-only">Years of experience</dt>
-                    <dd class="font-display text-3xl font-bold text-white sm:text-4xl">6<span class="text-accent-400">+</span></dd>
+                    <dd class="font-display text-3xl font-bold text-white sm:text-4xl">14<span class="text-accent-400">+</span></dd>
                     <dd class="mt-1 text-xs font-medium uppercase tracking-wider text-zinc-500 sm:text-sm">Years experience</dd>
                 </div>
                 <div>

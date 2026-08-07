@@ -6,8 +6,8 @@
                 Selected work
             </h2>
             <p class="mt-4 leading-relaxed text-zinc-400">
-                A few projects I've designed and shipped for clients across e-commerce,
-                SaaS and internal tooling.
+                Thesis systems, personal projects and business websites —
+                here's the kind of work I take on.
             </p>
         </div>
 
@@ -20,7 +20,7 @@
                             {{ $project['icon'] }}
                         </span>
                         <span class="absolute right-4 top-4 rounded-full bg-zinc-950/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-zinc-300 backdrop-blur">
-                            Case study
+                            {{ $project['category'] }}
                         </span>
                     </div>
 
