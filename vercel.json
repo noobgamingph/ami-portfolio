@@ -1,12 +1,45 @@
 {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
     "version": 2,
-    "framework": "null",
+    "framework": null,
+    "buildCommand": "npm run build",
+    "installCommand": "npm install",
     "functions": {
-        "api/index.php": {"runtime": "vercel-php@0.6.2"}
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.4",
+            "memory": 1024,
+            "maxDuration": 30
+        }
     },
     "rewrites": [
         {
-            "source": "/(.*)", "destination": "/api/index.php"
+            "source": "/(.*)",
+            "destination": "/api/index.php"
         }
-    ]
+    ],
+    "env": {
+        "APP_NAME": "Ami Portfolio",
+        "APP_ENV": "production",
+        "APP_KEY": "base64:TjL9ETRu/+5jnZWUjEbjqLdwxWbEOmGrID8V1gTVklI=",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://ami-portfolio.vercel.app",
+        "APP_LOCALE": "en",
+        "APP_FALLBACK_LOCALE": "en",
+        "APP_FAKER_LOCALE": "en_US",
+        "BCRYPT_ROUNDS": "12",
+        "LOG_CHANNEL": "stack",
+        "LOG_STACK": "single",
+        "LOG_LEVEL": "warning",
+        "SESSION_DRIVER": "cookie",
+        "SESSION_LIFETIME": "120",
+        "SESSION_SECURE_COOKIE": "true",
+        "CACHE_STORE": "array",
+        "QUEUE_CONNECTION": "sync",
+        "FILESYSTEM_DISK": "local",
+        "MAIL_MAILER": "log",
+        "MAIL_FROM_ADDRESS": "hello@ami.dev",
+        "MAIL_FROM_NAME": "Ami Dev",
+        "MAIL_PORTFOLIO_RECIPIENT": "hello@ami.dev",
+        "VITE_APP_NAME": "Ami Portfolio"
+    }
 }
